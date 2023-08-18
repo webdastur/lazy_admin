@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lazy-admin"
+version = "0.1.0"
+description = "Admin panel generator for lazy developers"
+authors = ["Abdulaminkhon Khaydarov <webdasturuz@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "lazy_admin" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
